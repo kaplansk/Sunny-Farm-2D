@@ -2,7 +2,13 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 public class UIController : MonoBehaviour
-{
+{   
+     public static UIController instance;
+    private void Awake()
+    {
+        instance = this;
+    }
+
     public GameObject[] toolbarActivatorIcons;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

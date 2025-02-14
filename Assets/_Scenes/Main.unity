@@ -2165,7 +2165,7 @@ MonoBehaviour:
   moveInput: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   actionInput: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   anim: {fileID: 2085126293}
-  currentTool: 1
+  currentTool: 0
 --- !u!50 &762552645
 Rigidbody2D:
   serializedVersion: 5
@@ -42076,6 +42076,8 @@ MonoBehaviour:
   currentStage: 0
   theSR: {fileID: 1050069886}
   soilTilled: {fileID: 6563066755110389082, guid: 290be3330cf84bc4d93460bae4e8d47f, type: 3}
+  soilWatered: {fileID: 8400690069364028037, guid: 290be3330cf84bc4d93460bae4e8d47f, type: 3}
+  isWatered: 0
 --- !u!1 &1766044428
 GameObject:
   m_ObjectHideFlags: 0
